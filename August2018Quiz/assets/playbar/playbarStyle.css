@@ -1,0 +1,62 @@
+.playButton
+{
+	background:url('../Playbar_icons/Play_icon.png') no-repeat;
+	width:58px;
+	height:59px;
+	float:left;
+	position:absolute;
+	left:50px;
+}
+.playButton:hover
+{
+	background:url('../Playbar_icons/Play_icon.png') no-repeat;
+	width:58px;
+	height:59px;
+	float:left;
+	position:absolute;
+	left:50px;
+}
+.playbarBackGround
+{
+	height:45px;
+}
+.playbarSmallButton
+{
+	width:51px;
+	height:36px;
+	float:left;
+	display:inline;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+.playbarSmallButton:hover {cursor:pointer;} 
+.playbarBigButton
+{
+	width:80px;
+	height:36px;
+	float:left;
+	display:inline;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+.playbarBigButton:hover {cursor:pointer;} 
+.playbarSlider
+{
+	width:60px;
+	float:left;
+	display:inline;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+.playbarSliderThumb
+{
+	position : absolute;
+	top : 9px;
+}
+.playbarSliderThumb:hover {cursor:pointer;}
