@@ -50,7 +50,7 @@ do
 	email_content="$(string_replace "$email_content" "$image64")"
 
 	# Send the email
-	/usr/sbin/sendmail -f "layth.holubeshen@gov.bc.ca" "${address}" <<< "$email_content"
+	/usr/sbin/sendmail -f "replace_me@domain.ca" "${address}" <<< "$email_content"
 	echo ${address}	
 
 	# Increment our count

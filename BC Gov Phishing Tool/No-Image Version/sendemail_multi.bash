@@ -39,7 +39,7 @@ do
 	echo ${address}
 	
 	# Send the email
-	sendmail -f "layth.holubeshen@gov.bc.ca" "${address}" < ~/Desktop/Phishing/email_content${j}.html
+	sendmail -f "replace_me@domain.ca" "${address}" < ~/Desktop/Phishing/email_content${j}.html
 	
 	# Increment our count
 	i=$((i+1))
