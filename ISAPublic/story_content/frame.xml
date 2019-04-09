@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnanbnsnfns10111101101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns10111101101" font="Myriad Pro" controllayout="npnxnanbsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
-    <layout name="pxabnsnfns10111101101" font="Myriad Pro" controllayout="pxabnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
-    <layout name="npxnabnsnfns10111101101" font="Myriad Pro" controllayout="npxnabnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
-    <layout name="npnxnanbnsnfns10111101101" font="Myriad Pro" controllayout="npnxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
-    <layout name="pxabnsnfns10111101100" font="Myriad Pro" controllayout="pxabnsnfns10111101100" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
-    <layout name="npxnanbnsnfns10111101101" font="Myriad Pro" controllayout="npxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
-    <layout name="pxnanbnsnfns10111101101" font="Myriad Pro" controllayout="pxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
-    <layout name="pnxnanbnsnfns10111101101" font="Myriad Pro" controllayout="pnxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="npnxnanbsnfns10111101101" font="Arial" controllayout="npnxnanbsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="pxabnsnfns10111101101" font="Arial" controllayout="pxabnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="npxnabnsnfns10111101101" font="Arial" controllayout="npxnabnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="npnxnanbnsnfns10111101101" font="Arial" controllayout="npnxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="pxabnsnfns10111101100" font="Arial" controllayout="pxabnsnfns10111101100" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="npxnanbnsnfns10111101101" font="Arial" controllayout="npxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="pxnanbnsnfns10111101101" font="Arial" controllayout="pxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="pnxnanbnsnfns10111101101" font="Arial" controllayout="pnxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -1166,16 +1166,11 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Myriad Pro">
+    <font name="Arial">
       <files>
         <file bold="true" italic="false" />
         <file bold="false" italic="false" />
         <file bold="false" italic="true" />
-      </files>
-    </font>
-    <font name="Arial">
-      <files>
-        <file bold="false" italic="false" />
       </files>
     </font>
   </fonts>
@@ -1257,7 +1252,7 @@
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Myriad Pro' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Arial' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
       <resource url="http://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/appropriate-use-policy" image="story_content/url.png" title="Appropriate Use Policy" />
       <resource url="http://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/working-outside-workplace" image="story_content/url.png" title="Working Outside the Workplace Policy" />
