@@ -16,7 +16,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Information Security and Awareness: Supporting Employees in the Workplace" />
+              <option name="title_text" value="Information Security and Awareness" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -72,6 +72,7 @@
           <option name="seekbar" value="true">
             <options>
               <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
             </options>
           </option>
           <option name="search" value="false" />
@@ -1254,12 +1255,12 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Arial' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="http://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/appropriate-use-policy" image="story_content/url.png" title="Appropriate Use Policy" />
-      <resource url="http://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/working-outside-workplace" image="story_content/url.png" title="Working Outside the Workplace Policy" />
-      <resource url="http://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/information-security-policy" image="story_content/url.png" title="Information Security Policy" />
       <resource url="http://www2.gov.bc.ca/assets/download/1FAF599BA72C4266A918FBD0A0935760" image="story_content/url.png" title="Top 10 Cyber Security Tips (Enterprise Edition)" />
       <resource url="http://www2.gov.bc.ca/assets/download/CC8A54A87BD34CA9AED5F2213A35C3B1" image="story_content/url.png" title="Top 10 Cyber Security Tips (Personal Edition)" />
-      <resource url="http://www2.gov.bc.ca/assets/download/082014862E0F481792F3215026A35F63" image="story_content/url.png" title="Resources" />
+      <resource url="https://www2.gov.bc.ca/assets/download/F3A6E5A2C84940E0A5839AAB9C7AAB56" image="story_content/url.png" title="Security Awareness in a Nutshell" />
+      <resource url="https://www2.gov.bc.ca/assets/download/73462CCA049440B8879820AF50389368" image="story_content/url.png" title="Phishing" />
+      <resource url="https://www2.gov.bc.ca/assets/download/FB058638545D4FD1BCFA17561663AC5E" image="story_content/url.png" title="Social Engineering" />
+      <resource url="https://www2.gov.bc.ca/assets/download/0DEEA11B8EFC44449D5FD9189C9EB36E" image="story_content/url.png" title="5 Safety Tips for Using a Public Computer" />
     </resources>
   </resource_data>
   <transcript_data>
