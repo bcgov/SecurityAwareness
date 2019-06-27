@@ -1,0 +1,3038 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnanbnsnfns10111101101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111101101" font="Arial" controllayout="npnxnanbsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="pxabnsnfns10111101101" font="Arial" controllayout="pxabnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="npxnabnsnfns10111101101" font="Arial" controllayout="npxnabnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="npnxnanbnsnfns10111101101" font="Arial" controllayout="npnxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="pxabnsnfns10111101100" font="Arial" controllayout="pxabnsnfns10111101100" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="npxnanbnsnfns10111101101" font="Arial" controllayout="npxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="pxnanbnsnfns10111101101" font="Arial" controllayout="pxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+    <layout name="pnxnanbnsnfns10111101101" font="Arial" controllayout="pnxnanbnsnfns10111101101" colorscheme="npxnanbnsnfns10111101101" string_table="npxnanbnsnfns10111101101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Information Security and Awareness" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="outline" value="true" group="linkleft" />
+              <listitem name="customlink" value="true" group="linkleft">
+                <properties>
+                  <property name="title" value="Course Navigation" />
+                  <property name="data" value="6qgOrLRT3cz" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="glossary" value="false" group="linkright" />
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Glossary" />
+                  <property name="data" value="5n1PDSjfqrJ" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="transcript" value="true" group="linkright" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Arial" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111101100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npxnanbnsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxnanbnsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxnanbnsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npxnanbnsnfns10111101101">
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x004B8D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA8C6BD" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x117ABF" alpha="100" stop="0" />
+                <color rgb="0x004B8D" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x17A1A1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFC000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFDB813" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npxnanbnsnfns10111101101">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Transcript</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Arial">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+        <file bold="false" italic="true" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5r5twtnoMpd" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5r5twtnoMpd.6RGnB2uscgU" displaytext="Title" expand="false" type="slide" />
+            <slidelink slideid="_player.5r5twtnoMpd.5rxMezhrvJQ" displaytext="Course Navigation" expand="false" type="slide" />
+            <slidelink slideid="_player.5r5twtnoMpd.6Rt2038T12i" displaytext="Welcome to the Course" expand="false" type="slide" />
+            <slidelink slideid="_player.5r5twtnoMpd.6fUlcf1MStX" displaytext="Learning Objectives" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5eNqCYgLdgK" displaytext="Pre-Assessment" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5eNqCYgLdgK.6kETGbtbzJ3" displaytext="Pre-Assessment" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5teg35EPGBv" displaytext="Security: It Matters" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5teg35EPGBv.6H0GkAOZO4A" displaytext="Security: It Matters" expand="false" type="slide" />
+            <slidelink slideid="_player.5teg35EPGBv.61GjpOUOUhW" displaytext="What is Information Security?" expand="false" type="slide" />
+            <slidelink slideid="_player.5teg35EPGBv.60uf9StgqmD" displaytext="Why Information Security Matters" expand="false" type="slide" />
+            <slidelink slideid="_player.5teg35EPGBv.6kHb5NlU53V" displaytext="When Information Security Matters" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5p7PP7DF6Cc" displaytext="IT Security" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5p7PP7DF6Cc.6G8E7IPZ2E9" displaytext="IT Security" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.5XDj6gWxBXh" displaytext="IT Security Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.5lbO99tfCoM" displaytext="Types of Attacks" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.6joylTy5Jud" displaytext="Phishing" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.5qyWmio8uOQ" displaytext="Phishing (continued)" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.6joTJVTfz4D" displaytext="Ransomware" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.5cLyhMROlG1" displaytext="Email, SPAM and Internet Hoaxes" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.67ork1sZCvb" displaytext="Types of Information We Protect" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.5fkj5Ydv5ls" displaytext="Who are the Attackers?" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.5gvyTKqHdxq" displaytext="Attackers are Often Insiders" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.5enWB9w3Gpm" displaytext="Should I Surf the DarkNet?" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.6Rt2BI7hsqt" displaytext="Breach Shuts Down Government Network" expand="false" type="slide" />
+            <slidelink slideid="_player.5p7PP7DF6Cc.6AjRCt2IzM5" displaytext="Phishing or Real?" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5lW5SO9Nh10" displaytext="Roles and Responsibilties" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5lW5SO9Nh10.6nJXSvdX00V" displaytext="Roles and Responsibilities" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.60au6gNJoFw" displaytext="Protect Your Workplace" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.5xJXiS0qucV" displaytext="Protect Your Workplace—what’s wrong in this picture?" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.6gXThAldlVs" displaytext="Protect Your Workstation" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.64Qb1PEzj3R" displaytext="Managing Email: Using Email in the Workplace" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.68s4LFhLWHL" displaytext="Portable Storage Devices" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.5jPBRlm17oR" displaytext="Securing Information on Mobile Devices" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.5oR8LT1izrx" displaytext="Paper Management" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.6CURDOqhSse" displaytext="Working Remotely or At Home" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.60bo4cpehn4" displaytext="What would you do if you saw this on your screen?" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.6oWvlwEh1sU" displaytext="Tips" expand="false" type="slide" />
+            <slidelink slideid="_player.5lW5SO9Nh10.6pVgiH7Os4W" displaytext="Roles and Responsibilities Exercise" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5XuSlY4o5ge" displaytext="Security Policies" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5XuSlY4o5ge.6oQQPCfFor7" displaytext="Security Policy " expand="false" type="slide" />
+            <slidelink slideid="_player.5XuSlY4o5ge.5zS7pGvcQfi" displaytext="Security Policies" expand="false" type="slide" />
+            <slidelink slideid="_player.5XuSlY4o5ge.6rg4UaVi2bT" displaytext="Creating a Security Culture" expand="false" type="slide" />
+            <slidelink slideid="_player.5XuSlY4o5ge.5clQQdFO4yq" displaytext="About Information Incidents" expand="false" type="slide" />
+            <slidelink slideid="_player.5XuSlY4o5ge.6PmnsG5lYcw" displaytext="Information Incidents" expand="false" type="slide" />
+            <slidelink slideid="_player.5XuSlY4o5ge.6lXh8O31c6L" displaytext="Information Incidents: What to Expect" expand="false" type="slide" />
+            <slidelink slideid="_player.5XuSlY4o5ge.6OoHsZMOZmx" displaytext="Managing Information Incidents" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6exBvEg8dbS" displaytext="Course Summary" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6exBvEg8dbS.6STLOmSGBUI" displaytext="Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.6exBvEg8dbS.6U35LELIiTa" displaytext="Congratulations" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Arial' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="http://www2.gov.bc.ca/assets/download/1FAF599BA72C4266A918FBD0A0935760" image="story_content/url.png" title="Top 10 Cyber Security Tips (Enterprise Edition)" />
+      <resource url="http://www2.gov.bc.ca/assets/download/CC8A54A87BD34CA9AED5F2213A35C3B1" image="story_content/url.png" title="Top 10 Cyber Security Tips (Personal Edition)" />
+      <resource url="https://www2.gov.bc.ca/assets/download/F3A6E5A2C84940E0A5839AAB9C7AAB56" image="story_content/url.png" title="Security Awareness in a Nutshell" />
+      <resource url="https://www2.gov.bc.ca/assets/download/73462CCA049440B8879820AF50389368" image="story_content/url.png" title="Phishing" />
+      <resource url="https://www2.gov.bc.ca/assets/download/FB058638545D4FD1BCFA17561663AC5E" image="story_content/url.png" title="Social Engineering" />
+      <resource url="https://www2.gov.bc.ca/assets/download/0DEEA11B8EFC44449D5FD9189C9EB36E" image="story_content/url.png" title="5 Safety Tips for Using a Public Computer" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5r5twtnoMpd.6RGnB2uscgU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Information Security and Awareness: Supporting Employees in the Workplace."&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" BackgroundColor="#000000,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5r5twtnoMpd.5rxMezhrvJQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Here are a few tips to guide you through the course to make the most of your experience. Take a moment to review this information and get familiar with how to navigate. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You can navigate from start to finish by using the previous and next buttons at the bottom of the screen. A submit button is located here on question screens.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You can use the progress bar to pause, play, scrub, and replay the audio and screen actions. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Click the audio button to control the sound. Slide the control all the way down to mute the audio.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Click the Menu button at the top of the screen to see how far you have progressed in the course. The highlighted section shows where you are in relation to the remaining course content.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You can also jump to a specific screen, or go back, by clicking the Menu button in the top left and then selecting the screen you wish from the drop-down menu.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You can complete this course over several sessions by closing your browser to exit and then returning to a specific screen by using the menu. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Refer to the glossary in the menu bar for unfamiliar terms or acronyms. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Resources are also available at any time from the menu bar. The Narration transcripts are also available at any time.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Click buttons and links for more information, as directed. Links open in a new tab or window. Click the X button on a pop-up to close it. Note: The Next button is disabled on screens with extra content until you click to read the information.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Click Course Navigation at the top left of the screen for navigation tips at any time throughout the course."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5r5twtnoMpd.6Rt2038T12i" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Good day and welcome to course 118 on Information Security and Awareness for BC Government Employees. The contents will enable and empower you to protect information both at work and at home.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Information Security is the responsibility of every employee. Each employee must ensure they are taking necessary steps to protect the networks systems and data entrusted to us.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="BC Government strongly promotes a risk-based approach to information security and ensures programs, policies, and processes are in place to manage risks to the confidentiality, integrity and availability of government information."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5r5twtnoMpd.6fUlcf1MStX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Securing information effectively is the shared responsibility of every government employee. We must ensure the data entrusted to us by citizens is protected.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This course will help you to: &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Explain why information security matters.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Recognize common types of information security attacks.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Identify what to do to protect against common attacks.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Describe your roles and responsibilities for protecting information security.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Describe what to do in the event of an information incident."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5eNqCYgLdgK.6kETGbtbzJ3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Let’s begin with a quick assessment of what you already know about information security. Your answers will help you focus on specific areas for additional learning.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="This assessment is not scored. It’s a good way for you to assess your own knowledge.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Let’s get started!"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5teg35EPGBv.6H0GkAOZO4A" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Security: It Matters!&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="In this module, we’ll look at why information security matters. You’ll learn about what information security is and what threatens it."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5teg35EPGBv.61GjpOUOUhW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Information security is the protection of information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction to provide confidentiality, integrity and availability.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click each box for more information. Remember: The Next button is disabled on this screen and others that have extra content until you click to read the information."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5teg35EPGBv.60uf9StgqmD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="What do these organizations have in common?&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="They have all had a major data breach in 2016 representing over ½ billion client records!"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5teg35EPGBv.6kHb5NlU53V" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="As employees, we must identify confidential information and protect it accordingly as part of our daily duties. When dealing with personal or confidential information, security matters through the entire information life cycle. That is, from the collection of information, through use, retention, disclosure, and archival or final destruction. "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.6G8E7IPZ2E9" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="IT Security.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="You might ask, “Is information really that vulnerable? After all, don’t our government, business practices, and IT security protect us during the information life cycle”?"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.5XDj6gWxBXh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Well, despite good protection, all governments, corporations, institutions, and critical infrastructures in every sector (such as education, health, or justice) "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="are "&gt;
+        &lt;Style FontSize="12" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="the target of attacks. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Nation states may look to acquire personal information on government employees such as was done with the United States Office of Personnel Management breach. In this breach, millions of employee criminal record checks, including fingerprints, were targeted and stolen.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Let’s explore the types of attacks we might encounter."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.5lbO99tfCoM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Some of the attacks you may be aware of are: "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Malware, Phishing, Spyware, Spam, Adware, Identity Theft or Identity Fraud"&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=". There are many other types.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Some are designed to insert malicious code like viruses, worms or Trojans; some are designed to block access to our information or programs (such as a DoS - or Denial of Service attack); while some attempt to gain access to our networks and systems.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Symantec (a leading anti-virus supplier) reported 430 MILLION new unique strains of malware in their 2016 Security Threat Report.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Don’t miss a quick look at these amazing attack maps that show you what is happening right now around the world.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click the buttons to see each attack map."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.6joylTy5Jud" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Let’s have a look at one of the most prolific types of attacks - phishing. Phishing can lure you into clicking a link, opening an attachment or visiting a website where malware or a virus is waiting for you. Nearly everyone has been phished at one time or another, some with devastating effects.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="According to the Anti Phishing Working Group, the total number of phishing attacks in 2016 was a 65% increase over 2015 and is still growing. Hackers are now using popular Social Media sites as vehicles for phishing attacks.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="There are over a dozen ways to deliver a phishing attack; here are a few:&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Vishing: phishing over your Internet phone &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Smishing: phishing over SMS messaging&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Spear phishing: more sophisticated phishing where attackers research and target their victims &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click the button for 10 ways to help you recognize phishing. Print and keep them near your desk as a reminder. Essentially, be suspicious!"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.5qyWmio8uOQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="If it looks suspicious, it likely is. Don’t click it! Clicking a link or opening an attachment can evade your anti-virus software. This software only recognizes malware that it knows. New or different types of threats can slip right by.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Hover over the link and examine the URL to ensure it is correct (check the extensions and the entire address for anomalies). If you have any suspicions, contact the sender or company directly or perform your own search.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Keep in mind that the statistics on your screen are only estimations and cannot measure the damage caused by even one successful phishing attempt. When it comes to links and attachments in emails, take the extra minute to investigate. You cannot be too careful."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.6joTJVTfz4D" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Ransomware is an especially harmful kind of malware that encrypts files, makes them unavailable to the victim, and demands payment to return them.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="The number one method of delivering ransomware is email attachments.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="It’s true: 9 out of 10 phishing emails now contain ransomware! &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="However: Can you get phished or infected with ransomware on your mobile phone?&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Absolutely! Our smartphones have significant storage capabilities full of personal photos, information and communication. A cellphone locked via ransomware will net a hacker, on average, approximately $600 Canadian."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.5cLyhMROlG1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Other email attacks include SPAM and Internet hoaxes. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="They involve emails that encourage you to forward the message to people you know, or they may masquerade as social media that will access your contact list and do it for you. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="The emails can contain malware that capture information and send it back to its originator. It is estimated that as much as 90% of emails world-wide on any given day are SPAM.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Of all the emails coming into the BC Government network, we filter out millions of SPAM messages every month. We blocked over 141 million SPAM messages from our Internet gateway in 2016. However effective our tools are, there are still those that slip through."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.67ork1sZCvb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Personal information isn’t the only information we want to protect. We want to protect any information considered confidential that may cause harm if accessed by unauthorized individuals. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Keep in mind that not all data is created equal. Some of it is more confidential than others and should benefit from additional security controls.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click the images for some examples of personal or confidential information."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.5fkj5Ydv5ls" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Now that you’ve seen the threats to our information, the types of information we protect, and what protects our information, who are the people trying to get our information?&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Many attacks are started by organized crime. It is thought that over 80% of all attacks come from groups of hackers or criminal organizations. There is great financial benefit in selling the information they capture. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="They have two main goals: &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="72" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="ListNumberedAsArabic" ListTypeFormat="Period" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="To steal whatever personal and confidential information is considered important to commit identity theft or fraud.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="72" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="ListNumberedAsArabic" ListTypeFormat="Period" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="To install malicious code into the computer system that will continue to perform tasks without the knowledge of the owner.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Unauthorized access to confidential information can cause harm ranging from low to high and can be extremely valuable if sold to other parties. For example, consider the effect of unauthorized release of a decision to build a pipeline or the drawings of a correctional facility. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Criminal organizations have armies of ‘employees’. Some live in poor countries and are rewarded for every piece of information they can uncover. They operate like companies with management, distributors, and marketing - working on their own hidden networks."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.5gvyTKqHdxq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="If many attacks are from organized crime, why do most organization’s reports show that over half of their cyber-attacks come from insiders or employees? &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Keep in mind that many of these reports do not account for all breaches. Some organizations do not report incidents as it is a bad reflection on their organization’s security practices.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Information is often exposed when an employee unintentionally falls victim and clicks an attachment or a link, uses a weak password, is careless with their mobile device or does not adhere to safe computing policies or practices. Many of these situations are set up by the cyber criminal, waiting for an unsuspecting employee to ‘take the bait’.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Employees should always ensure they use only authorized software and do not use unsecure methods of accessing sites, backdoors or workarounds that will place government networks, systems, or data at risk."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.5enWB9w3Gpm" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="You have heard of DarkNet and are curious what is out there. Would it be appropriate to log in with your government workstation and investigate?&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="No. Visiting sites on the DarkNet (the underground Internet) may expose you to criminal factions and increases the risk to government networks, systems, and data.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Every employee is responsible for knowing our security policies and is bound by their Oath of Employment and Standards of Conduct. Both are confirmed upon employment and can be viewed on the MyHR pages of the Intranet. We are obliged by these policies to take reasonable steps to protect our networks, systems, data and IT resources; avoid conflicts of interest; notify if there are any changes in our criminal record; and respect intellectual property rights. The violation of any of these policies may lead to disciplinary action, dismissal, cancellation of contract or other legal remedies."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.6Rt2BI7hsqt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Were you working on the day in December 2014 when government email was shut down for several hours?  It began when an employee clicked an innocent looking attachment on their personal email account. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="The attachment hid malware and the effect was rapid. Within seconds, the infection moved from the employee’s mailbox toward the entire GAL, and beyond. The shutdown was only partially to clean the replicating infected emails from our email systems. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="It was also to prevent the infected emails from spreading from trusted government addresses to the various agencies, crown corporations, health authorities, schools, business partners, and others with whom we interact daily. The consequences on their networks could not be foreseen or managed, and our reputation was at stake. During a massive outbreak like this one, it is difficult to contain, assess or control what information has been compromised.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="While reasonable personal use of government IT resources by employees is permitted, we must never place the organization unnecessarily at risk. Now that we know we shouldn’t click ANY links or attachments in messages viewed from our personal (non-government) accounts, we must always use absolute care when connecting outside of the network."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5p7PP7DF6Cc.6AjRCt2IzM5" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="You receive this email one day.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Is it phishing or real?"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.6nJXSvdX00V" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Roles and Responsibilities.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="You have seen some scary information (such as the types of attacks and resulting consequences).&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="How can you take steps to be safe and secure at the office and at home, and create a “human shield”?"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.60au6gNJoFw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="You must always be aware of anything that might threaten the security of our physical area and assets. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="What do you do if you do not recognize someone walking through your area, even if they appear to belong? Do you feel uncomfortable asking them for their access badge or justification for their presence in your building?&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="This is exactly how devices are stolen and other devices are illegally installed to conduct surveillance on employees. Each of these led to serious information incidents. We are all guardians of the confidential information under our protection and need to take steps to protect it."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.5xJXiS0qucV" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="What’s wrong in this picture? Click each button to explore the violations. Click “I’m Done!” when you’re finished. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="[After “I’m Done” is clicked.]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="What’s wrong? Just about everything! Did you guess all 13 violations of our ‘Clean Desk’ policy? Always observe our ‘clean desk policy’ and clear desktops and work areas before you leave the office.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Please also consider the following when protecting your workplace:&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="72" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="ListNumberedAsArabic" ListTypeFormat="Period" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Keep doors and windows closed and locked.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="72" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="ListNumberedAsArabic" ListTypeFormat="Period" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Secure your keys, badges, valuables, documents and portable storage devices in a locked desk or file cabinet. Do not leave your valuables or government devices in your vehicles.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="72" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="ListNumberedAsArabic" ListTypeFormat="Period" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you are working with confidential or personal documents, store them securely before leaving your work area and lock them in secure filing location when done with them.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="72" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="ListNumberedAsArabic" ListTypeFormat="Period" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Do not discuss confidential or personal client or business information in open work spaces or public areas.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="72" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="ListNumberedAsArabic" ListTypeFormat="Period" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use your badge to access the building and don’t allow others to slip in behind you. Challenge those who don’t have badges visible that identify them as employees.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="72" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="ListNumberedAsArabic" ListTypeFormat="Period" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Ensure the return of all credentials and assets upon leaving government."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.6gXThAldlVs" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="What constitutes safe work habits to protect your workstation? &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Restart daily.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Lock your computer when away from your desk.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Protect your IDIR account.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Here is something to consider: would it be appropriate to give your ID and password to your most trusted colleague to access your files or programs while you were on vacation? &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="No. You are accountable for all actions performed using your IDIR ID and password. There are ways to share information safely (contact your Ministry Information Security Officer or MISO for further information).&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="When signing up for non-government accounts, do not expose your IDIR credentials. Create a different username and password and change them regularly.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Use a strong password.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Since most of our IDIR IDs are our first initial and last name, your password may be the only thing protecting the network. It must be complex enough to be effective. Review the qualifications to create a strong password often, as hacking techniques become increasingly more sophisticated. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Remember: The most important factor in creating a password is length. Longer passwords equal stronger passwords.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="How long does it take to crack a password?&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="As soon as we feel we are using safe practices, cyber technology makes another leap. There is a new black box on the market that can crack your 4-digit PIN code in as little as 6 seconds! This completely changes what we think we know about creating a strong password."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.64Qb1PEzj3R" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Here are some considerations for using email in the workplace.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Click each tab for more information.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="[Tab 1: Security]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Our network provides some protection for our email communications. Ensure you use your government email account when conducting government business but be aware that even our government email is not completely secure. With the right access, emails travelling across networks can be intercepted and read in plain text, like a postcard. Limit the level of confidential information disclosed in email messages and use encryption if the information is highly confidential.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="[Tab 2: Double-check]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There have been occurrences of personal and confidential information going to the wrong destination, causing the need for an information incident investigation and embarrassment to government. After you’ve composed an email, make it a habit to open, verify, then close an attachment, and check the intended recipient’s name and email address before hitting Send.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="[Tab 3: Exercise Options]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Place personal and other confidential information on a shared drive (with access control) and send the link or an attachment that is password protected or encrypted, rather than including it in the text of the email. Other options to consider are registered mail services or courier. For advice on using different methods of transmission, contact your MISO.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="[Tab 4: Reply &amp;amp; Cc]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="We all get in a rush when we are trying to quickly reply to our email. However, be extremely careful when replying to an email or replying to all, and when using the cc or copy option. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="36" Justification="Left" CustomTabStops="" ListLevel="1" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Carefully review the list of recipients.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="90" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Are the correct people included? &amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="90" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Does everyone need to be included? &amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="36" Justification="Left" CustomTabStops="" ListLevel="1" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Double-check all the names before sending.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="36" Justification="Left" CustomTabStops="" ListLevel="1" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Be very careful about replying to (or simply don’t reply to) an unknown sender.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="[Tab 5: Receiving Email]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Upon receiving emails:&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="36" Justification="Left" CustomTabStops="" ListLevel="1" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Avoid forwarding chain letters or hoax emails to other employees or people you know outside of work. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="36" Justification="Left" CustomTabStops="" ListLevel="1" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Never click a link or open an attachment in an unsolicited email. If you have any suspicions about an email, delete it without opening.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="36" Justification="Left" CustomTabStops="" ListLevel="1" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As mentioned previously, always be on the lookout for phishing emails and unverified attachments!&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="[Tab 6: Personal Email]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Using your personal email account at work.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As a government employee, you can access your personal email accounts over the Internet while at work to conduct reasonable personal affairs and to help foster work-life balance. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Always keep in mind, it is against our policy to send work documents to your home email account. If you need to work from home, speak to your supervisor about safe methods and sign up for one of our secure remote services (DTS or VPN).&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As always, please follow the Standards of Conduct and the Appropriate Use Policy.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.68s4LFhLWHL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="You need to transfer files from one place to another but do not have an encrypted USB stick. You have a USB stick from home with you. Should you use it to temporarily transfer the files?&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="No. Per our Appropriate Use Policy, Portable Storage Devices should only be used when more secure methods are not available and must be encrypted on a government approved device. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="To protect our systems, data and network, abstain from connecting any other storage, personal or portable devices to our government environment whether you are working in the office or from home.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Consider these USB statistics.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Per the Ponemon Institute Report, 70% of businesses have traced the loss of personal or confidential information using USB memory sticks. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="While loss occurs when devices get lost or stolen, up to 55% of those devices are also malware-infected and introduce malicious code into the network when connected. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="More and more devices are arriving direct from the manufacturer with hidden malware already installed!&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click the button for more information."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.5jPBRlm17oR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now, let’s focus on the additional measures you need to take when you’re working on a mobile device.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Whether it’s a smartphone, tablet, or laptop, there are specific things you need to do to ensure that information remains appropriately managed and secured.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Click each tab for more information.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="[Tab 1: Loss]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Loss.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Mobile devices are particularly vulnerable to being lost or stolen. If you must leave your device unattended outside the office, take reasonable steps to secure it, like locking it in a hotel safe. If you lose your device, report it right away.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="[Tab 2: Applications (Apps)]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Applications (or Apps).&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You need to be mindful of what apps you download to your government-issued mobile device. Many apps access information on your device such as your contacts and your calendar. This can be a problem if that information is personal as this type of information typically must be stored inside Canada. Ensure you review your permissions.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="It is always best practice to remove apps you are no longer using.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You must get your supervisor’s permission before downloading an application. There’s a checklist supervisors can use to assess the potential privacy or security risks of downloading a particular application. You can find the link in the ‘resources’ tab.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="[Tab 3: Awareness]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you are travelling, or working from home, a hotel or another location outside your regular workplace, it’s particularly important to take measures to prevent others from overhearing or viewing confidential information. This can include using a privacy screen, preventing others from looking over your shoulder, or finding a private place to take a phone call. As well, be sure to protect information about Canadians. Other countries may be interested in accessing our confidential information!&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As always, choose a strong and difficult to guess password.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="[Tab 4: Mobile Device Management System (or MDMS)]&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Mobile Device Management System (or MDMS).&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This is a new program designed to protect our government information in the event our devices get lost or stolen. It manages what we download to protect us from potentially infected apps. If you use a government smartphone or tablet and are not part of this program, please contact your help desk. Ensure you follow the recommended settings and do not disable any settings designed to make your device more secure.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.5oR8LT1izrx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="While the emphasis in recent years has been on threats to electronic information and devices, theft of information in paper form is just as much of a threat. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="What would you do if you received a misdirected email from a service area of government with a completed application, copy of a birth certificate, driver’s license and credit card information attached? &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="This happened and was a failure to protect the public trust in government’s management of personally identifiable information.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click the button for more information on best practices when managing paper documents."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.6CURDOqhSse" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="If you can work remotely or from home, you must ensure that you take appropriate steps to protect the information in your care and technology. These are covered by our policies listed in the Security Policies module. Tips and guides are also available on our website that will help you.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click the button to see some important highlights."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.60bo4cpehn4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="You have been hit with ransomware! If this were to happen in real time, it would be just as sudden and dramatic.&amp;#xA;"&gt;
+        &lt;Style FontSize="11" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="What would you do? Without the private key, you are unable to unlock your information. Without offline back-ups, you are unable to recover your information. &amp;#xA;"&gt;
+        &lt;Style FontSize="11" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click the button to find out what to do and stop the timer!&amp;#xA;"&gt;
+        &lt;Style FontSize="11" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="[After button is clicked.]&amp;#xA;"&gt;
+        &lt;Style FontSize="11" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="The government has back-ups in place to prevent total loss of the information but to protect the rest of the network; you should unplug your network cord or turn off your Wi-Fi receiver immediately. DO NOT power off your device. There is valuable information on it that could be used to track the source of the attack.&amp;#xA;"&gt;
+        &lt;Style FontSize="11" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Report the incident to your supervisor and contact 250-387-7000 Option 3 for instructions."&gt;
+        &lt;Style FontSize="11" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.6oWvlwEh1sU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="In summary, there are many ways that you can protect information at your workplace and on your enterprise environment, devices, and home network.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click the links now to download two tip sheets.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Keep these tip sheets handy and refer to them regularly."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5lW5SO9Nh10.6pVgiH7Os4W" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Match the terms or actions to the description that fits best."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XuSlY4o5ge.6oQQPCfFor7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Security Policies.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Now that you know what your roles and responsibilities are when it comes to information security and awareness, let’s look at our government’s security policies."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XuSlY4o5ge.5zS7pGvcQfi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="The Governance and Framework of our information standards are defined in full in our "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Information Security Policy "&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="(or "&gt;
+        &lt;Style FontSize="12" FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="ISP"&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=")"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=". Within these policies, it is clearly defined how you should be securing your work practices.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="You should also make sure that you’re familiar with our other policies related to information security.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="The "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Appropriate Use Policy "&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="covers the appropriate use of government information and information technology.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="The "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Working Outside the Workplace Policy "&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="provides direction on how to safeguard electronic and paper-based confidential and/or personal information when working remotely.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Links for these policies can be found in the ‘resources’ section of this course. Tip sheets and guides can also be found with these policies."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XuSlY4o5ge.6rg4UaVi2bT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="36">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="It is our goal at the OCIO, and that of all security departments, to create a ‘Security Culture’ within our organizations. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="A security culture is ‘the ideas, customs, and social behaviour of a particular people or society, that allows them to be free from danger or threats.’&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="While we will never be totally free of threats, we as individuals can contribute to safeguarding our information by adopting safe work habits. That is why a vigorous security and privacy awareness training program is widely recommended to ensure that employees become aware of the ever-emerging new technologies and threats and are frequently reminded of security best practices. "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XuSlY4o5ge.5clQQdFO4yq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="37">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Information incidents are any unauthorized events that threaten the privacy or security of confidential information, whether accidental or deliberate. These incidents can cause financial harm to government, lead to the invasion of someone’s personal privacy, or threaten the safety of an individual.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Disclosure of confidential or personal information to unauthorized parties is just one type of incident. Other incident types include the inappropriate collection or use of confidential or personal information. You must also be careful about how you store confidential and personal information. At all times, you must handle the confidential or personal information in your care appropriately.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="This is what it means to be security aware.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Employees must take steps to prevent, detect, and respond to incidents. They must immediately report any lost or stolen device or asset, suspicious activity, suspected or actual information security event, or observed or suspected security weakness as quickly as possible to their supervisor. "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XuSlY4o5ge.6PmnsG5lYcw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="38">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Here are some common, and some uncommon, causes for information incidents. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click each button for more information."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XuSlY4o5ge.6lXh8O31c6L" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="39">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Once an information incident has been reported, an investigator will contact you to assess the incident and provide direction on the steps that must be taken.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="These steps focus on report, recover, remediate, and prevent.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="The important thing to remember is, if in doubt, REPORT IT. The Information Incident Management Process (or IIMP) is there for the protection of the Province of BC and its citizens. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Dozens of reports that turn out to be false positives are preferable to ignoring a true event. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click each step in the list to see a description. "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XuSlY4o5ge.6OoHsZMOZmx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="40">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="If you discover "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="or suspect"&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" an information incident, report it immediately ("&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="24x7"&gt;
+        &lt;Style FontSize="12" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="). Employees who make the effort to report anything suspicious are demonstrating their commitment to good security practices.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="You will never be reprimanded for reporting something suspicious that turns out not to be an actual incident.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Here are the steps you would follow to submit a report. Please review them carefully.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Click the button to download a very handy contact sheet full of links and information to assist you with incidents, policies, privacy and security issues. "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6exBvEg8dbS.6STLOmSGBUI" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="41">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="In summary, you should now be able to:&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Explain why information security matters.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Recognize common types of information security attacks. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Identify what to do to protect against common attacks.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Describe your roles and responsibilities for protecting information security.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="54" FirstLineMargin="36" ListLevel="1" LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Describe what to do in the event of an information incident.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="Remember, Information Security starts with YOU.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="It is your responsibility to ensure data and systems remain secure.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingBefore="3" SpacingAfter="3" /&gt;
+      &lt;Span Text="You can do this by practicing good security hygiene."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6exBvEg8dbS.6U35LELIiTa" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="42">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Congratulations! You’ve completed this course on Information Security and Awareness.&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" BackgroundColor="#000000,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You should now be better prepared to be safe and secure using information and technology at the office and at home. &amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" BackgroundColor="#000000,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You are now a “human shield”!&amp;#xA;"&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" BackgroundColor="#000000,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="3" SpacingAfter="3"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In a world of rapid technology changes where Information Management and Information Security is evolving as a discipline in the digital age, there will always be more to learn about. We hope that this course provides you with a start to your on-going learning."&gt;
+        &lt;Style FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" BackgroundColor="#000000,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DQxUHnB2wn.5o0q9WCaD6W" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="43">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Here are some tips for getting around in this course."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
