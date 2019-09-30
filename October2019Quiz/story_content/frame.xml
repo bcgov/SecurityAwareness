@@ -1185,7 +1185,8 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/Fake_News_infosheet.pdf" image="story_content/5o6jxiDZFXf.png" title="Fake News Info Sheet" />
+      <resource url="story_content/external_files/Fake_News_infosheet.pdf" image="story_content/5cZmWnpGavp.png" title="Fake News Info Sheet" />
+      <resource url="story_content/external_files/Propaganda_infosheet.pdf" image="story_content/65otNP1Gy4M.png" title="Cyber-Propaganda Info Sheet" />
       <resource url="https://www.snopes.com/" image="story_content/url.png" title="Snopes" />
       <resource url="https://mediabiasfactcheck.com/" image="story_content/url.png" title="Media Bias/Fact Check" />
       <resource url="https://www.allsides.com" image="story_content/url.png" title="Allsides - Bias Ratings" />
