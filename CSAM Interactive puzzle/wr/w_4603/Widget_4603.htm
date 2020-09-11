@@ -1,0 +1,115 @@
+<!DOCTYPE HTML><HTML><HEAD><TITLE>Adobe Captivate Widget</TITLE><META NAME="generator" content="Adobe Captivate 6"></META><script type="text/javascript" src="../../assets/js/jquery-1.11.3.min.js"></script><script type="text/javascript" src="../../assets/js/OpenAjaxManagedHub-all.js"></script><script type="text/javascript">function init(){	hubClient = new OpenAjax.hub.IframeHubClient({HubClient: {onSecurityAlert: function() {}		   }	});	hubClient.connect(function() {		var id = hubClient.getClientID();		hubClient.publish(id+"_loaded","loaded");	});}function deInit() { if(hubClient) { 	hubClient.disconnect(); } } jQuery(document).ready(function() {	init();});</script></HEAD><BODY><html>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+		<script type='text/javascript'> 
+			var internalImage = '';
+			var rswidth = 0;
+			var Irows = 0;
+			var entertimemin = '';
+			var entertimesec = '';
+			var flag;
+			var scalePercentage;
+			var resultVariable = "";
+			var m_VariableHandle;
+			var options;
+			var finished="notdone";
+			var primg = '';
+			var x1;
+			var score;
+			var title;
+			
+			function initAll(){
+			  var canv=self.document.getElementById('puzzleCanvas');
+			  canv.style.zIndex = 4;
+			  
+			  var w=800; var h=600;
+			  var o=self.document.getElementById('puzzleRoot');
+			  if (o && o.offsetWidth){
+				  w=o.offsetWidth;
+				  h=self.Math.round(w*0.75);
+				  w=self.Math.min(w,640);
+				  h=self.Math.min(h,450);
+			  }
+			  
+			  var hi=self.document.getElementById('hintimage');
+			  var fi=self.document.getElementById('finalimage');
+			  hi.style.visibility= "visible" ;
+			  hi.style.zIndex = 5;
+			  //hi.style.width = '100px';
+			  //hi.style.height = '100px';
+			  
+			  if(preset == 0){
+				imagesrc = internalImage;hi.src = internalImage;fi.src = internalImage;
+			  }else{
+				 imagesrc = primg;hi.src = primg; fi.src = primg;
+			  }
+			  
+			  if(type == "classic"){
+				typeofpuzzle = 'classic';
+			  }else{
+				typeofpuzzle = 'straight';
+			  }
+			  
+			  typeofpuzzle = 'classic';
+			  
+			  options = {
+				  cut:typeofpuzzle,
+				  view:"full" ,
+				  src:imagesrc,
+				  bedWidth: '800' ,
+				  bedHeight:'600',
+				  backgroundColor:'#FF0000',
+			  };
+				JigsawPuzzle =  new Puzzle("puzzleParent",options);
+			}
+			
+			function clearandthenshuffleAll(){
+				JigsawPuzzle.init()
+			}
+			
+			function showmousehand(){
+				document.body.style.cursor='pointer';
+			}
+			
+			function hidemousehand(){
+				document.body.style.cursor='default';
+			}
+			
+			</script>
+			<style type='text/css' > 
+			  #timer{
+				  position: absolute;
+				  border-style: none;
+				  left: 625px;
+				  top: 410px;
+				  width:70px;
+				  height:80px;
+				  visibility:visible;
+				  color:#ff0000;
+				  font-weight:bold;
+			  }
+			  
+			  #myscore{
+				  position: absolute;
+				  border-style: none;
+				  left: 690px;
+				  top: 165px;
+				  width:70px;
+				  height:80px;
+				  visibility:visible;
+				  color:#0000ff;
+				  font-weight:bold;
+			  }
+			</style>
+			<body id="puzzleRoot">
+				<div ID="Widget_4474_resource_use">
+					<canvas id="canvas"  style="z-index: 3;position:absolute;left:0px;top:0px;"></canvas>
+					<img id="hintimage" style="z-index:4;position:absolute;"/> 
+					<img id="finalimage" style="z-index:4;position:absolute;"/>
+					<div contentEditable=false id="feedbackText" rows="4" cols="70" readonly style="resize: none; border: none;position:relative;display:none;cursor: default;font-family:Tahoma; font-size:40px; alignment-adjust:middle"></div>
+					<div id="puzzleParent">
+						<canvas id="puzzleCanvas" style="z-index:2;position:absolute;"></canvas>
+					</div>
+					<div id="puzzleCreate"/>
+				</div>
+			</body>
+		</html><script type="text/javascript" src="libs/easeljs-0.7.0.min.js"></script><script type="text/javascript" src="libs/tweenjs-0.5.0.min.js"></script><script type="text/javascript" src="libs/movieclip-0.5.0.min.js"></script><script type="text/javascript" src="libs/preloadjs-0.4.0.min.js"></script><script type="text/javascript" src="libs/resource_use.js"></script><script type="text/javascript" src="libs/gameCanvas.js"></script><script type="text/javascript" src="js/jigpuz.js"></script><script type="text/javascript" src="js/jigsawpuzzle.js"></script></BODY></HTML>
