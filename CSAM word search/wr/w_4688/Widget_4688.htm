@@ -1,0 +1,31 @@
+<!DOCTYPE HTML><HTML><HEAD><TITLE>Adobe Captivate Widget</TITLE><META NAME="generator" content="Adobe Captivate 6"></META><script type="text/javascript" src="../../assets/js/jquery-1.11.3.min.js"></script><script type="text/javascript" src="../../assets/js/OpenAjaxManagedHub-all.js"></script><script type="text/javascript">function init(){	hubClient = new OpenAjax.hub.IframeHubClient({HubClient: {onSecurityAlert: function() {}		   }	});	hubClient.connect(function() {		var id = hubClient.getClientID();		hubClient.publish(id+"_loaded","loaded");	});}function deInit() { if(hubClient) { 	hubClient.disconnect(); } } jQuery(document).ready(function() {	init();});</script></HEAD><BODY><div ID="wordsearchwdgtHolder">
+      <div ID="wordsearchwdgt" style="-webkit-tap-highlight-color:rgba(0,0,0,0); left:0px;top:0px;position:absolute;display:block;">
+      <link rel="stylesheet" id="cssFile" type="text/css" href="themes/dummy.css"></link>
+      <link rel="stylesheet" id="cssHeader" type="text/css" href="themes/dummyHeader.css"></link>	
+      <link rel="stylesheet" type="text/css" href="themes/jScroll.css"></link>	
+      <div id="reveal" style="left:0px;top:0px;position:absolute;display:block;">
+      <div id="headerColor">
+      <div id="intTitle">DIY eLearning Info</div>
+      <div id="intInstructions">Click each button for more information</div>
+      </div>
+      <div id="content_bg"> 
+      <!--.answerBox area-->
+      <div class="answerBox" style="position:absolute; left:85px ; top:130px">
+      <div class="answerBoxHeader"> Answer Clues </div>
+      <div class="scroll-pane" id="canvasWordList"></div>
+      <div id="answerBoxFooter"></div>
+      <!--end .answerBox--></div>
+      
+      <!--.wordGridHolder div, holds canvas-->
+      <div class="wordGridHolder" style="position:absolute; left:365px ; top:115px"> 
+      <!--canvas element, change the size here (can't be done in css stylesheet)-->
+      <canvas id="wordgridcanvas" width="350" height="300"> The canvas element is not supported in this browser. 
+      <!--end canvas--></canvas>
+      <!--end .wordGridHolder div--></div>
+      <div id="endGameScreen" width = "600" height="600"></div>
+      <div class="clearfloat"></div>
+      </div>
+      <div id="instructions" style="text-align:center;color:#929497;padding-top:30px;"><i>Click the first and last letter<br>
+      of the word to make a selection.</i></div>
+      </div>
+      </div><script type="text/javascript" src="scripts/_global.js"></script><script type="text/javascript" src="scripts/hammer.min.js"></script><script type="text/javascript" src="scripts/wordsearchScripts.js"></script><script type="text/javascript" src="scripts/wordsearch_use.js"></script><script type="text/javascript" src="scripts/jscrollpane.min.js"></script></BODY></HTML>
