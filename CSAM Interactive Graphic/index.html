@@ -103,7 +103,7 @@ function initializeCP()
 							var imagesJSONFiles = [ 'dr/imgmd.json' ];
 							cpXHRJSLoader.loadImagesJSON(imagesJSONFiles,function(imageToJSONPathMap){
 								cp.imageToJSONPathMap = imageToJSONPathMap;
-								var imageJSONFiles = [ 'dr/img1.json' ];
+								var imageJSONFiles = [ 'dr/img1.json','dr/img2.json' ];
 								if(window.location.protocol.substr(0,4) == "file")
 									cpXHRJSLoader.preloadURLs(imageJSONFiles, constructDIVs);
 								lJSLoaded = true;
