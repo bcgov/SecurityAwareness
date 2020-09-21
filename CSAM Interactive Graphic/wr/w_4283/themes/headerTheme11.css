@@ -1,0 +1,50 @@
+#reveal {
+	background-color: #ffffff;
+	padding: 0;
+	color: #444;
+	font-family: Georgia, Helvetica, sans-serif;
+	font-size: 14px;
+	width: 680px;
+	height: 433px;
+}
+#reveal {
+	border: 1px solid #cccccc;
+	box-shadow: 3px 3px 7px #ccc;
+}
+/* get styles: http://gradients.glrzad.com/*/
+#headerColor {
+	padding: 10px 20px 5px 20px;
+	background: #cbeaed;
+}
+#content_bg {
+	padding: 10px 10px 10px 10px;
+	padding-bottom: 20px;
+	height: 309px;
+	background: #cbeaed;  /*Old browsers *//*background: -moz-linear-gradient(left, #efefef 0%, #afe0e6 100%);  FF3.6+ */
+		/*background: -webkit-gradient(linear, left top, right top, color-stop(0%,#efefef), color-stop(100%,#afe0e6));  Chrome,Safari4+ */
+		/*background: -webkit-linear-gradient(left, #efefef 0%,#afe0e6 100%);  Chrome10+,Safari5.1+ */
+		/*background: -o-linear-gradient(left, #efefef 0%,#afe0e6 100%);  Opera 11.10+ */
+		/*background: -ms-linear-gradient(left, #efefef 0%,#afe0e6 100%);  IE10+ */
+		/*background: linear-gradient(left, #efefef 0%,#afe0e6 100%);  W3C */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#afe0e6',GradientType=1 );  IE6-9 */
+}
+#intInstructions {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #0093d0;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+#intTitle {
+	padding-bottom: 5px;
+	font-size: 20px;
+	color: #0093d0;
+}
+/*top arc*/
+#reveal, #headerColor, #reveal {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-top-left-radius: 20px 20px;
+	-webkit-border-top-left-radius: 20px 20px;
+	-moz-border-top-right-radius: 20px 20px;
+	-webkit-border-top-right-radius: 20px 20px;
+}

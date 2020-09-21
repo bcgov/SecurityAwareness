@@ -1,0 +1,63 @@
+
+#tabs
+{
+	display: block;
+    list-style: none;
+    padding: 0 0 4px 0;
+    margin: 0 0 0 0px;
+    font: 0.75em arial;
+	float:left;
+}
+
+#tabs li
+{
+    display: block;
+}
+
+#tabs li a
+{
+	font: Georgia, "Times New Roman", Times, serif;
+	display: block;
+	height: 25px;
+	margin-bottom: 4px;
+	margin-top:0;
+    padding: 10px; 7px; 0px 7px;
+	text-align:center;
+    text-decoration: none;
+	font-style:italic;
+    background-color: #166e99;
+	color: white;
+    border-bottom: none;
+    outline: none;
+	
+}
+
+#tabs li a:hover
+{
+    background-color: #cbeaed;
+	background-image: none;
+}
+
+#tabs li.active a
+{
+    background-color: #8bc533;
+	background-image: none;
+	color: white;
+}
+
+
+
+#tabs_content_container
+{
+    padding: 20px 30px 20px 160px;
+	background-color: #FFFFFF;
+	min-height: 200px;
+	box-shadow: 3px 3px 7px #ccc;
+	
+}
+
+.tabs_container
+{
+    display: none;
+}
+

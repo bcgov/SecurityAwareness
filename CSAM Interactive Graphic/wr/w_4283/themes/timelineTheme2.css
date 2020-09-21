@@ -1,0 +1,73 @@
+
+#tabs
+{
+	display: block;
+    list-style: none;
+    padding: 5px 0 4px 0;
+    margin: 0 0 0 0px;
+    font: 0.75em arial;
+	height: 45px; 
+}
+
+#tabs li
+{
+    display: inline;
+}
+
+#tabs li a
+{
+	display: block;
+	height: 25px;
+	margin-right: 4px;
+	float:left;
+    padding: 10px; 7px; 0px 7px;
+	text-align:center;
+    text-decoration: none;
+    background-color: #c6c5c5;
+	color: #414141;
+    border-bottom: none;
+    outline: none;
+
+	background-image: -o-linear-gradient(bottom, rgb(198,197,197) 17%, rgb(177,177,177) 59%, rgb(184,183,184) 61%);
+	background-image: -moz-linear-gradient(bottom, rgb(198,197,197) 17%, rgb(177,177,177) 59%, rgb(184,183,184) 61%);
+	background-image: -webkit-linear-gradient(bottom, rgb(198,197,197) 17%, rgb(177,177,177) 59%, rgb(184,183,184) 61%);
+	background-image: -ms-linear-gradient(bottom, rgb(198,197,197) 17%, rgb(177,177,177) 59%, rgb(184,183,184) 61%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.17, rgb(198,197,197)),
+		color-stop(0.59, rgb(177,177,177)),
+		color-stop(0.61, rgb(184,183,184))
+	);
+} 
+	
+	
+#tabs li a:hover
+{
+    background-color: #c6c5c5;
+	background-image: none;
+}
+
+#tabs li.active a
+{
+    background-color: #b2d235;
+	background-image: none;
+	color: white;
+}
+
+
+
+#tabs_content_container
+{
+    padding: 20px 30px;
+	background-color: #FFFFFF;
+	min-height: 200px;
+}
+
+.tabs_container
+{
+    display: none;
+}
+
