@@ -1,0 +1,309 @@
+:focus {
+	outline: 0;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+a img {
+	border: 0;
+}
+a, a:hover {
+	text-decoration: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+#endGameScreen {
+	border: 5px solid black;
+	width: 340px;
+	height: 240px;
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	padding: 20px 30px;
+	background-color: #414141;
+	border: 3px solid white;
+	color: white;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px #999;
+	display: none;
+}
+#container {
+	width: 750px;
+	height: 500px;
+	background: #FFF;
+	border: #FFF 1px solid;
+	margin: 15px auto 0 auto;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(js/PIE.htc);
+}
+.content {
+	width: 680px;
+	height: 435px;
+	/*------------------------------------------------------------background color for content area*/
+	background: #f1f1f1;/*lt grey*/
+	/*---------------------------------------------------------------------------------------------*/
+	margin: 15px auto 0 auto;
+	-moz-border-radius: 20px 20px 0 0;
+	border-radius: 20px 20px 0 0;
+	-moz-box-shadow: 0px 0px 20px #999999;
+	-webkit-box-shadow: 0px 0px 20px #999;
+	box-shadow: 0px 0px 20px #999;
+	behavior: url(js/PIE.htc);
+}
+header {
+	width: 680px;
+	height: 85px;
+	/*------------------------------------------------------------background color for header area*/
+	background: #006892;/*blue*/
+	/*---------------------------------------------------------------------------------------------*/
+	-moz-border-radius: 20px 20px 0 0;
+	border-radius: 20px 20px 0 0;
+	behavior: url(js/PIE.htc);
+}
+header h1 {
+	font: 20px/20px Arial, Helvetica, sans-serif;
+	/*----------------------------------------------------------------------header title text color*/
+	color: #FFF;/*white*/
+	/*---------------------------------------------------------------------------------------------*/
+	padding: 20px 0 0 60px;
+}
+header h2 {
+	font: italic 14px/14px Georgia, "Times New Roman", Times, serif;
+	/*----------------------------------------------------------------------header description text color*/
+	color: #b9dff6;/*lt blue*/
+	/*---------------------------------------------------------------------------------------------*/
+	padding: 10px 0 0 60px;
+}
+.answerBox {
+	padding: 0;
+	width: 205px;
+	height: 333px;
+	/*----------------------------------------------------------------------answer box background color*/
+	background: #FFF;/*white*/	/*---------------------------------------------------------------------------------------------*/
+	margin: -10px 0 0 -30px;
+	position: relative;
+	float: left;
+	box-shadow: 0px 0px 20px #999;
+	behavior: url(js/PIE.htc);
+}
+.answerBox p {
+	font: 14px/20px Arial, Helvetica, sans-serif;
+	/*----------------------------------------------------------------------answer box text color*/
+	color: #000;/*black*/
+	/*---------------------------------------------------------------------------------------------*/
+	padding: 10px 0 0 30px;
+}
+.answerBoxHeader {
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.31) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.31))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.31) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.31) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.31) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.31) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#4f000000', GradientType=0 ); /* IE6-9 */
+	width: 205px;
+	height: 30px;
+	/*----------------------------------------------------------------------answer box header background color*/
+	
+	/*---------------------------------------------------------------------------------------------*/
+	behavior: url(js/PIE.htc);
+	background-color: #2d9fae;/*aqua*/
+}
+.answerBoxHeader {
+	font: bold 14px/14px Arial, Helvetica, sans-serif;
+	/*----------------------------------------------------------------------answer box header text color*/
+	color: #FFF;/*white*/
+	/*---------------------------------------------------------------------------------------------*/
+	padding: 7px 0 0 20px;
+	margin: 0;
+	width: 185px;
+}
+#showAnswers {
+	box-shadow: 0px 0px 5px #222;
+	width: 130px;
+	height: 20px;
+	padding-top: 5px;
+	margin-left: 25px;
+	margin-top: 10px;
+	font-style: italic;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	-moz-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+	background-color: #bbbbbb;
+}
+#answerBoxFooter {
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.31) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.31))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.31) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.31) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.31) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.31) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#4f000000', GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 5px;
+	width: 195px;
+	height: 80px;
+	/*----------------------------------------------------------------------answer box footer background color*/
+
+	/*---------------------------------------------------------------------------------------------*/
+	position: absolute;
+	bottom: 0;
+	behavior: url(js/PIE.htc);
+	background-color: #2d9fae;/*aqua*/
+}
+/*--------------------------------------------------------------------------wordGridHolder div that holds the canvas element and dynamically generated word grid*/
+.wordGridHolder {
+	margin: 0px 0 0 0px;
+	width: 360px;
+	height: 315px;
+	background: #2d9fae;/*aqua*/
+	float: right;
+	height: 310px;
+	border: 1px solid white;
+}
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.scroll-pane, #Search_Result_Header, #Search_Input_Container, .wordGridHolder {
+	box-shadow: 3px 3px 7px #ccc;
+}
+#Glossary_Context_Container {
+	width: 190px;
+	border: 0;
+}
+#content_bg {
+	min-height: 250px;
+}
+#Search_Input_Container {
+	width: 185px;
+	background-color: rgb(0, 100, 131);
+	padding: 5px 0 5px 5px;
+	margin: 0;
+}
+#searchText {
+	font-style: italic;
+	font-weight: bold;
+	font: Verdana;
+	color: White;
+	padding: 0px;
+}
+#searchInput {
+	width: 100px;
+	height: 10px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+}
+#Search_Container {
+	width: 190px;
+	float: left;
+	margin-right: 20px;
+}
+#Search_Result_Header {
+	background-color: rgb(0, 100, 131);
+	padding: 5px 0 5px 15px;
+	float: left;
+	width: 375px;
+	color: white;
+}
+#Search_Result_Header {
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdkYjllOCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iIzU4ODJhMiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4yNiIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(255,255,255,.4) 0%, rgba(88,130,162,0) 60%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,.4)), color-stop(60%, rgba(88,130,162,0)), color-stop(100%, rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,.4) 0%, rgba(88,130,162,0) 60%, rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,.4) 0%, rgba(88,130,162,0) 60%, rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,.4) 0%, rgba(88,130,162,0) 60%, rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(255,255,255,.4) 0%, rgba(88,130,162,0) 60%, rgba(0,0,0,0) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#42000000', GradientType=0 ); /* IE6-8 */
+}
+#Search_Input_Container {
+}
+#Search_Result_Container {
+	padding: 15px 15px;
+	width: 360px;
+	border: 0;
+	height: 270px;
+}
+#Navigation_Container {
+	background-color: rgb(0, 84, 104);
+	border: 1px solid black;
+	color: #FFF;
+}
+.NoValue {
+	color: white;
+}
+#Body_Container {
+}
+.timelineNode {
+	margin-top: 15px;
+	border: 2px solid white;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	background-color: #ffffff;
+}
+.timelineNode:hover {
+	background-color: #004a61;
+}
+.timelineNode:active {
+	background-color: #40c3c3;
+}
+#tabs_content_container {
+	padding: 20px 30px;
+	background-color: #FFFFFF;
+	min-height: 250px;
+}
+.tab_content {
+	border: 1px solid black;
+}
+#tabs_container {
+	height: 40px;
+	display: block;
+}
+#canvas {
+}
+#canvas-wrap {
+	position: relative;
+	width: 600px;
+	height: 70px;
+}
+#canvas-wrap canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0
+}
+.navNode .NoValue {
+	font-weight: bold;
+	color: grey;
+	font-style: normal;
+	text-decoration: none;
+}
+.navNode .HasValue {
+	font-weight: bold;
+	color: white;
+	font-style: normal;
+	text-decoration: none;
+}

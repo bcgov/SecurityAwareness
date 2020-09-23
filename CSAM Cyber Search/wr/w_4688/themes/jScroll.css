@@ -1,0 +1,154 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.clues {
+	padding-left: 20px;
+	margin-bottom:0px;
+	padding-top:10px;
+}
+
+.doneClue {
+	color:#3F0
+}
+
+.answerBox }
+	margin-top:-30px;
+}
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+.scroll-pane .jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	height: 100%;
+	background:#2E2E2F;
+	
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+/*-------------------------track area*/
+.scroll-pane .jspTrack
+{
+	background:#404041;
+	background:#2E2E2F;
+	background:#006892;/*blue*/
+	position: relative;
+	/*border-left:#000 2px solid;*/
+	/*padding:1px;*/
+	
+	/*display:none;
+	visibility:hidden;*/
+}
+
+/*--------------------------drag area*/
+.jspDrag
+{
+	background:#d0d2d3;
+	background:#e6e7e8;
+	background:#CCC;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	/*display:none;*/
+}
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	
+	
+	border-left:#d0d2d3 1px solid;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspArrowUp{
+	background:#404041 url(../images/arrowUp.jpg) no-repeat;
+}
+.jspArrow.jspArrowDown{
+	background:#404041 url(../images/arrowDown.jpg) no-repeat;
+}
+
+.scroll-pane-map .jspArrow.jspArrowUp{
+	background:#404041 url(../images/map/map-arrowUp.jpg) no-repeat;
+}
+.scroll-pane-map .jspArrow.jspArrowDown{
+	background:#404041 url(../images/map/map-arrowDown.jpg) no-repeat;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	border-left:#d0d2d3 1px solid;
+}
+
+.scroll-pane .jspVerticalBar .jspArrow
+{
+	height: 20px;
+}
+.scroll-pane-map .jspVerticalBar .jspArrow
+{
+	height: 16px;
+	width:18px;
+	border:#404041 1px solid;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+.scroll-pane
+{
+	width:205px;
+	height:211px;
+	background:#FFF;
+	overflow: auto;
+	border:0;
+	/*background-image:url(../images/trackpad.jpg);
+	background-repeat:no-repeat;*/
+}
