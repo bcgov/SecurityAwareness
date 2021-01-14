@@ -1,0 +1,8 @@
+Agile Projects have fixed schedule and costs but scope can be flexible.  Requirements are less clear.
+
+Initiating - issued/approved by sponsor
+Planning - create project management plan (BARF)
+                   - Budget, Schedule
+                   - Updated throughout life of project
+Executing - Execute the work, changes, conintuously improve
+M&C - Control to PM plan, approve/reject changes, cont improve
